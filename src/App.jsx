@@ -1,11 +1,13 @@
 import React from 'react';
 import { Navbar, Nav, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Footer from './Fotter';
+import UnderDevelopmentBanner from './UnderDevelopmentBanner';
 import "./App.css"
 
 const App = () => {
   return (
     <Container>
+      <UnderDevelopmentBanner />
       <Navbar className="mt-3">
         <Nav >
           <Nav.Link className='navbar-links' href="#">Home</Nav.Link>
