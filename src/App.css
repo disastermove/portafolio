@@ -1,0 +1,99 @@
+/* Add the Discord colors */
+:root {
+  --discord-dark: #2c2f33;
+  --discord-light: #99aab5;
+  --discord-green: #43b581;
+  --discord-red: #f04747;
+}
+/* Add a darkness style */
+body {
+  background-color: var(--discord-dark);
+  color: var(--discord-light);
+  font-family: "Fira Code", monospace;
+}
+/* Add a minimalist style */
+/* Remove the default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Add a simple navigation bar */
+nav {
+  background-color: #1e2022;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  color: var(--discord-light) !important;
+}
+.navbar-links {
+  color: var(--discord-light) !important;
+  padding: 5px;
+}
+.navbar-links:hover {
+  color: white !important;
+}
+/* Add a simple heading */
+h1 {
+  margin-bottom: 2rem;
+  color: var(--discord-green);
+}
+.description-info {
+  margin-right: 30px;
+}
+/* Add a style for the projects section*/
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#projects h2 {
+  text-align: center;
+}
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.project {
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--discord-dark);
+  color: var(--discord-light);
+  padding: 1rem;
+  text-align: center;
+}
+.project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+.project h3 {
+  margin-top: 1rem;
+  color: var(--discord-green);
+}
+.project p {
+  margin-bottom: 1rem;
+}
+.project .btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--discord-green);
+  border-color: var(--discord-green);
+  color: var(--discord-dark);
+  text-decoration: none;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+.project:hover .btn {
+  opacity: 1;
+  visibility: visible;
+}
