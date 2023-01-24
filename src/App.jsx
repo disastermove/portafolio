@@ -28,9 +28,8 @@ const App = () => {
             Soy Manel, un desarrollador web y movil apasionado en el campo de la
             programación. Tengo habilidades en varios lenguajes de programación,
             como javascript, react y react native, lo que me permite adaptarme
-            rápidamente a nuevos proyectos y tecnologías.
-            <br />
-            <br />
+            rápidamente a nuevos proyectos y tecnologías.</p>
+          <p>
             Con una mentalidad ágil y
             versátil, me gusta desafiarme a mí mismo y mejorar mis habilidades
             constantemente. Además, estoy comprometido con pasarlo bien en el
