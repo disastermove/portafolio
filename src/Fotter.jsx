@@ -6,52 +6,48 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => {
     return (
-        <footer>
-            <Container>
-                <Row>
-                    <Col md={4}>
-                        <h3>Contact</h3>
-                        <ListGroup>
-                            <ListGroupItem>Email: manelponce@example.com</ListGroupItem>
-                            <ListGroupItem>Phone: 555-555-5555</ListGroupItem>
+        <footer >
+            <Container >
+                <Row className='d-flex justify-content-center mb-5'>
 
-                        </ListGroup>
-                    </Col>
                     <Col md={4}>
                         <h3>Links</h3>
                         <ListGroup>
-                            <ListGroupItem>
-                                <a href="#">Home</a>
+
+                            <ListGroupItem className='list-group'>
+                                <a className='anchor' href="#home">Home</a>
                             </ListGroupItem>
-                            <ListGroupItem>
-                                <a href="#">About</a>
+                            <ListGroupItem className='list-group'>
+                                <a className='anchor' href="#about">About</a>
                             </ListGroupItem>
-                            <ListGroupItem>
-                                <a href="#">Projects</a>
+                            <ListGroupItem className='list-group'>
+                                <a className='anchor' href="#projects">Projects</a>
                             </ListGroupItem>
-                            <ListGroupItem>
-                                <a href="#">Contact</a>
-                            </ListGroupItem>
+                            {/* <ListGroupItem className='list-group'>
+                                <a className='anchor' href="#">Contact</a>
+                            </ListGroupItem> */}
                         </ListGroup>
                     </Col>
                     <Col md={4}>
                         <h3>Social</h3>
-                        <ListGroup>
-                            <ListGroupItem>
-                                <a href="#">
+                        <ListGroup >
+                            <ListGroupItem className='list-group'>Email: manelponcejesus@gmail.com</ListGroupItem>
+
+                            <ListGroupItem className='list-group'>
+                                <a className='anchor' href="https://github.com/disastermove">
                                     <FontAwesomeIcon icon={faGithub} /> GitHub
                                 </a>
                             </ListGroupItem>
-                            <ListGroupItem>
-                                <a href="#">
+                            <ListGroupItem className='list-group'>
+                                <a className='anchor' href="https://www.linkedin.com/in/manel-ponce-a49a0023a/">
                                     <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                                 </a>
                             </ListGroupItem>
-                            <ListGroupItem>
-                                <a href="#">
+                            {/* <ListGroupItem className='list-group'>
+                                <a className='anchor' href="#">
                                     <FontAwesomeIcon icon={faTwitter} /> Twitter
                                 </a>
-                            </ListGroupItem>
+                            </ListGroupItem> */}
                         </ListGroup>
                     </Col>
                 </Row>

@@ -10,6 +10,7 @@ body {
   background-color: var(--discord-dark);
   color: var(--discord-light);
   font-family: "Fira Code", monospace;
+  scroll-behavior: smooth;
 }
 /* Add a minimalist style */
 /* Remove the default margin and padding */
@@ -41,6 +42,10 @@ h1 {
 }
 .description-info {
   margin-right: 30px;
+}
+.image {
+  width: 300px !important;
+  height: 200px !important;
 }
 /* Add a style for the projects section*/
 #projects {
@@ -96,4 +101,15 @@ h1 {
 .project:hover .btn {
   opacity: 1;
   visibility: visible;
+}
+.list-group {
+  color: var(--discord-light);
+  background-color: #1e2022 !important;
+}
+.anchor {
+  color: var(--discord-light);
+  text-decoration: none;
+}
+.anchor:hover {
+  color: white;
 }
