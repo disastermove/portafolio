@@ -20,7 +20,7 @@ const App = () => {
         <Col md={4}>
           <div className="description-info">
             <h1>Manel Ponce</h1>
-            <Image src="/1662374677059.jpg" alt="" roundedCircle className='mb-3' />
+            <Image src="/1662374677059.webp" alt="" roundedCircle className='mb-3' />
           </div>
         </Col>
         <Col md={8} id="about">
@@ -55,7 +55,7 @@ const App = () => {
           </Col>
           <Col md={6}>
             <div className="project">
-              <Image src="/rickandmorty.png" alt="Project 2" rounded className='image' />
+              <Image src="/rickandmorty.webp" alt="Project 2" rounded className='image' />
               <h3>Rick and Morty API</h3>
               <p>Esto es un proyecto hecho con la api de rick and morty con react</p>
               <Button variant="primary" href="https://rickandmortyapis.netlify.app/">
