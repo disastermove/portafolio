@@ -3,12 +3,10 @@ import React from 'react';
 import Footer from './components/Footer';
 import Skills from "./components/Skills";
 import { Navbar, Nav, Container, Row, Col, Image, Button } from 'react-bootstrap';
-import UnderDevelopmentBanner from './components/UnderDevelopmentBanner';
 
 const App = () => {
   return (
     <Container id='home'>
-      <UnderDevelopmentBanner />
       <Navbar className="mt-3">
         <Nav >
           <Nav.Link className='navbar-links' href="#home">Home</Nav.Link>
