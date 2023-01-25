@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Skills = () => {
     return (
-        <section id="skills" className='mb-5'>
+        <section id="skills" className='mb-5 animate-fade-in-down'>
             <h2 className='text-center'>My Skills</h2>
             <Container className='grids'>
                 <Row>
@@ -54,9 +54,9 @@ const Skills = () => {
                             <p>Sass</p>
                         </div>
                     </Col>
-                </Row >
-            </Container >
-        </section >
+                </Row>
+            </Container>
+        </section>
     );
 };
 

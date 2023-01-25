@@ -7,15 +7,15 @@ import { Navbar, Nav, Container, Row, Col, Image, Button } from 'react-bootstrap
 const App = () => {
   return (
     <Container id='home'>
-      <Navbar className="mt-3">
-        <Nav >
+      <Navbar className="mt-3 animate-fade-in-down">
+        <Nav>
           <Nav.Link className='navbar-links' href="#home">Home</Nav.Link>
           <Nav.Link className='navbar-links' href="#about">About</Nav.Link>
           <Nav.Link className='navbar-links' href="#projects">Projects</Nav.Link>
           <Nav.Link className='navbar-links' href="#skills">Skills</Nav.Link>
         </Nav>
       </Navbar>
-      <Row className='mt-5 align-items-center justify-content-between'>
+      <Row className='mt-5 align-items-center justify-content-between animate-fade-in-down'>
         <Col md={4}>
           <div className="description-info">
             <h1>Manel Ponce</h1>
@@ -38,7 +38,7 @@ const App = () => {
           </p>
         </Col>
       </Row>
-      <section id="projects">
+      <section id="projects" className="animate-fade-in-down">
         <h2>Projects</h2>
         <Row>
           <Col md={6} className="d-flex justify-content-center align-items-flex-start">
