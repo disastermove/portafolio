@@ -9,7 +9,7 @@ const App = () => {
     <Container id='home'>
       <Navbar className="mt-3 animate-fade-in-down">
         <Nav>
-          <Nav.Link className='navbar-links anchor' href="#home">Home</Nav.Link>
+          <Nav.Link className='navbar-links' href="#home">Home</Nav.Link>
           <Nav.Link className='navbar-links' href="#about">About</Nav.Link>
           <Nav.Link className='navbar-links' href="#projects">Projects</Nav.Link>
           <Nav.Link className='navbar-links' href="#skills">Skills</Nav.Link>
