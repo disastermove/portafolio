@@ -9,7 +9,7 @@ const App = () => {
     <Container id='home'>
       <Navbar className="mt-3 animate-fade-in-down">
         <Nav>
-          <Nav.Link className='navbar-links' href="#home">Home</Nav.Link>
+          <Nav.Link className='navbar-links anchor' href="#home">Home</Nav.Link>
           <Nav.Link className='navbar-links' href="#about">About</Nav.Link>
           <Nav.Link className='navbar-links' href="#projects">Projects</Nav.Link>
           <Nav.Link className='navbar-links' href="#skills">Skills</Nav.Link>
@@ -51,7 +51,7 @@ const App = () => {
               </Button>
             </div>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="d-flex justify-content-center align-items-flex-start">
             <div className="project">
               <Image src="/imagenes/rickandmorty.webp" alt="Project 2" rounded className='image' />
               <h3>Rick and Morty API</h3>
@@ -61,7 +61,7 @@ const App = () => {
               </Button>
             </div>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="d-flex justify-content-center align-items-flex-start">
             <div className="project">
               <Image src="/imagenes/rickandmortyv2.webp" alt="Project 2" rounded className='image' />
               <h3>Rick and Morty API v2</h3>
