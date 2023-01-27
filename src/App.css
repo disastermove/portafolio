@@ -28,10 +28,11 @@ img {
   text-decoration: none;
 }
 :root {
-  --discord-dark: #2c2f33;
-  --discord-light: #99aab5;
-  --discord-green: #43b581;
-  --discord-red: #f04747;
+  --discord-dark: #3b3f58;
+  --discord-light: #f5f5f5;
+  --white: #fff;
+  --discord-green: #5ac8fa;
+  --discord-extraDark: #2b2d42;
 }
 body {
   color: var(--discord-light);
@@ -47,7 +48,7 @@ nav {
   color: var(--discord-light) !important;
 }
 nav {
-  background-color: #1e2022;
+  background-color: var(--discord-extraDark);
   border-radius: 8px;
   margin-bottom: 5px;
   align-items: center !important;
@@ -63,7 +64,7 @@ nav a::after {
   content: "";
   font-weight: 400;
   position: relative;
-  color: #ffffff;
+  color: var(--white);
   opacity: 0;
   content: "<";
   transition: opacity 0.5s ease;
@@ -84,7 +85,7 @@ nav a:hover::after {
   color: var(--discord-light);
 }
 .navbar-links:hover {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 h1 {
   margin-bottom: 2rem;
@@ -124,28 +125,12 @@ img {
 .project p {
   margin-bottom: 1rem;
 }
-.project .btn {
-  display: block;
-  padding: 0.5rem;
-  background-color: var(--discord-green);
-  border-color: var(--discord-green);
-  color: var(--discord-dark);
-  opacity: 0;
-  visibility: hidden;
-}
-.project:hover .btn {
-  opacity: 1;
-  visibility: visible;
-}
-.project .btn:focus {
-  background-color: #348862;
-  border-color: #348862;
-}
+
 .list-group {
-  background-color: #1e2022 !important;
+  background-color: var(--discord-extraDark) !important;
 }
 .anchor:hover {
-  color: #fff;
+  color: var(--white);
 }
 .description-info {
   display: flex;
@@ -156,6 +141,7 @@ img {
 .description-info img {
   width: 200px !important;
   height: 200px !important;
+  border: 5px solid #c3c3e51c;
 }
 .rower {
   display: flex;
@@ -175,7 +161,7 @@ img {
 
 .grids {
   align-items: center;
-  color: #fff;
+  color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,7 +261,7 @@ img {
   opacity: 40%;
 }
 .projects_cards-info {
-  background-color: #1e2022;
+  background-color: var(--discord-extraDark);
   border-radius: 0 0 4px 4px;
   height: 100%;
   padding: 10px;
