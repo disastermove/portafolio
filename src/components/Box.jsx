@@ -22,8 +22,8 @@ const Box = () => {
                     <div className="projects_cards-info">
                         <h3 className="projects_name">Rankedly App</h3>
                         <p className="projects_project-info">
-                            Aplicacion que permite crear, administrar unirte a torneos esports
-                            hecha con react native <br></br> <br></br>
+                           Aplicación de torneos de esports con React Native que permite a los usuarios crear, administrar y unirse a torneos, con características como clasificación, y personalización de avatares.
+                               <br/><br />
                         </p>
                         <div className="projects_project-stack">
                             <p>React Native</p>
@@ -56,7 +56,7 @@ const Box = () => {
                     <div className="projects_cards-info">
                         <h3 className="projects_name">Rick and Morty API v2</h3>
                         <p className="projects_project-info">
-                            Esto es un proyecto rehecho con la api de rick y morty con responsive y muchas mas cosas
+                            Proyecto rehecho de Rick y Morty con responsive diseño y utilizando la API de Rick y Morty.
                             <br></br> <br></br>
                             <br></br>
                         </p>
