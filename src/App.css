@@ -270,23 +270,24 @@ img {
 .projects_project-info {
   height: 96px;
 }
-.projects_project-stack {
-}
 .projects_project-stack-github {
   color: var(--discord-dark);
+  transition: 0.5s all;
   margin: 5px;
 }
 .projects_project-stack-github:hover {
-  transition: 0.5 all;
+  transition: 0.5s all;
   color: white;
 }
 .projects_project-stack-deploy {
   color: var(--discord-dark);
+  transition: 0.5s all;
   margin: 5px;
 }
 .projects_project-stack-deploy:hover {
   color: white;
-  transition: 0.5 all;
+  transition: 0.5s all;
+  transition: 0.5s all;
 }
 @media (min-width: 576px) {
   .project {
