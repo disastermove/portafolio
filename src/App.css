@@ -265,6 +265,7 @@ img {
   border-radius: 0 0 4px 4px;
   height: 100%;
   padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .projects_project-info {
   height: 96px;
@@ -276,6 +277,7 @@ img {
   margin: 5px;
 }
 .projects_project-stack-github:hover {
+  transition: 0.5 all;
   color: white;
 }
 .projects_project-stack-deploy {
@@ -284,6 +286,7 @@ img {
 }
 .projects_project-stack-deploy:hover {
   color: white;
+  transition: 0.5 all;
 }
 @media (min-width: 576px) {
   .project {
