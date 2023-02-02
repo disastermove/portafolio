@@ -13,7 +13,6 @@ const Footer = () => {
                     <Col md={4}>
                         <h3>Links</h3>
                         <ListGroup>
-
                             <ListGroupItem className='list-group'>
                                 <a className='anchor' href="#home">Home</a>
                             </ListGroupItem>
@@ -29,7 +28,6 @@ const Footer = () => {
                         <h3>Social</h3>
                         <ListGroup >
                             <ListGroupItem className='list-group'>Email: manelponcejesus@gmail.com</ListGroupItem>
-
                             <ListGroupItem className='list-group'>
                                 <a className='anchor' href="https://github.com/disastermove">
                                     <FontAwesomeIcon icon={faGithub} /> GitHub
