@@ -43,16 +43,17 @@ body {
   margin: 0;
   padding: 0;
 }
-.navbar-links,
-nav {
-  color: var(--discord-light) !important;
-}
+
 nav {
   background-color: var(--discord-extraDark);
   border-radius: 8px;
   margin-bottom: 5px;
   align-items: center !important;
   justify-content: center !important;
+}
+nav a {
+  font-weight: 400 !important;
+  color: #bebebe !important;
 }
 .project h3,
 h1 {
@@ -67,7 +68,7 @@ nav a::after {
   color: var(--white);
   opacity: 0;
   content: "<";
-  transition: opacity 0.5s ease;
+  transition: opacity 0.2s ease;
 }
 nav a::after {
   content: "/>";
@@ -146,8 +147,9 @@ img {
 .rower {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
   justify-content: center;
+  align-items: center;
+  gap: 50px;
   max-width: 700px;
   margin-top: 16px;
 }
@@ -165,8 +167,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20px;
-  margin-right: 20px;
+
   text-align: center;
 }
 .skill-box img {
@@ -206,7 +207,7 @@ img {
   background-color: #909090;
 }
 .animate-fade-in-down {
-  animation: 1s 1s both fade-in-down;
+  animation: 0.5s 1s both fade-in-down;
 }
 @keyframes fade-in-down {
   0% {
@@ -245,6 +246,7 @@ img {
 }
 .projects_cards-image {
   width: 320px;
+  transition: 0.2s all;
   height: 100%;
 }
 .projects_cards a {
@@ -259,317 +261,7 @@ img {
 }
 .projects_cards-image:hover {
   opacity: 40%;
-}
-.projects_cards-info {
-  background-color: var(--discord-extraDark);
-  border-radius: 0 0 4px 4px;
-  height: 100%;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-}
-.projects_project-info {
-  height: 96px;
-}
-.projects_project-stack-github {
-  color: var(--discord-dark);
-  transition: 0.5s all;
-  margin: 5px;
-}
-.projects_project-stack-github:hover {
-  transition: 0.5s all;
-  color: white;
-}
-.projects_project-stack-deploy {
-  color: var(--discord-dark);
-  transition: 0.5s all;
-  margin: 5px;
-}
-.projects_project-stack-deploy:hover {
-  color: white;
-  transition: 0.5s all;
-  transition: 0.5s all;
-}
-@media (min-width: 576px) {
-  .project {
-    width: 300px;
-    margin: 1rem;
-    background-color: var(--discord-dark);
-    color: var(--discord-light);
-    padding: 1rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-  .description-info {
-    display: block;
-  }
-  .projects_cards-container {
-    flex-direction: row;
-  }
-}
-#projects,
-.project,
-.projects,
-.skill-box,
-nav {
-  display: flex;
-}
-.project,
-body {
-  background-color: var(--discord-dark);
-}
-.project img,
-img {
-  object-fit: cover;
-}
-#projects h2,
-.project,
-.project .btn {
-  text-align: center;
-}
-.project .btn,
-.project img {
-  width: 100%;
-  transition: opacity 0.3s;
-}
-.anchor,
-.project .btn {
-  text-decoration: none;
-}
-:root {
-  --discord-dark: #3b3f58;
-  --discord-light: #f5f5f5;
-  --white: #fff;
-  --discord-green: #5ac8fa;
-  --discord-extraDark: #2b2d42;
-}
-body {
-  color: var(--discord-light);
-  font-family: system-ui;
-  scroll-behavior: smooth;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-.navbar-links,
-nav {
-  color: var(--discord-light) !important;
-}
-nav {
-  background-color: var(--discord-extraDark);
-  border-radius: 8px;
-  margin-bottom: 5px;
-  align-items: center !important;
-  justify-content: center !important;
-}
-.project h3,
-h1 {
-  color: white;
-  font-size: 1.5rem;
-}
-nav a::before,
-nav a::after {
-  content: "";
-  font-weight: 400;
-  position: relative;
-  color: var(--white);
-  opacity: 0;
-  content: "<";
-  transition: opacity 0.5s ease;
-}
-nav a::after {
-  content: "/>";
-}
-nav a:hover::before,
-nav a:hover::after {
-  opacity: 1;
-}
-.navbar-links {
-  padding: 5px 15px;
-}
-.anchor,
-.list-group,
-.project {
-  color: var(--discord-light);
-}
-.navbar-links:hover {
-  color: var(--white) !important;
-}
-h1 {
-  margin-bottom: 2rem;
-}
-img {
-  aspect-ratio: 16/9;
-}
-.image {
-  width: 300px !important;
-  height: 200px !important;
-}
-#projects {
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-.projects {
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-.project {
-  width: 300px;
-  margin: 1rem;
-  padding: 1rem;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.project img {
-  height: auto;
-}
-.project h3 {
-  margin-top: 1rem;
-}
-.project p {
-  margin-bottom: 1rem;
-}
-
-.list-group {
-  background-color: var(--discord-extraDark) !important;
-}
-.anchor:hover {
-  color: var(--white);
-}
-.description-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.description-info img {
-  width: 200px !important;
-  height: 200px !important;
-  border: 5px solid #c3c3e51c;
-}
-.rower {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
-  max-width: 700px;
-  margin-top: 16px;
-}
-.skill-box {
-  align-items: center;
-  transition: 0.3s;
-  justify-content: center;
-  flex-direction: column;
-  margin: 5px;
-}
-
-.grids {
-  align-items: center;
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
-}
-.skill-box img {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 5px;
-  object-fit: contain;
-}
-@media (min-width: 576px) {
-  .project {
-    width: 300px;
-    margin: 1rem;
-    background-color: var(--discord-dark);
-    color: var(--discord-light);
-    padding: 1rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-  .description-info {
-    display: block;
-  }
-}
-::-webkit-scrollbar {
-  width: 16px;
-}
-::-webkit-scrollbar-thumb {
-  height: 56px;
-  border-radius: 8px;
-  border: 4px solid transparent;
-  background-clip: content-box;
-  background-color: #606060;
-}
-::-webkit-scrollbar-thumb:hover {
-  background-color: #909090;
-}
-.animate-fade-in-down {
-  animation: 1s 1s both fade-in-down;
-}
-@keyframes fade-in-down {
-  0% {
-    opacity: 0;
-    transform: translateY(-125%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.projects_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.projects_cards-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.projects_title {
-  margin-bottom: 30px;
-}
-.projects_cards {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 320px;
-  height: 390px;
-  justify-content: center;
-  margin: 10px;
-  margin-bottom: 30px;
-}
-.projects_cards-image {
-  width: 320px;
-  height: 100%;
-}
-.projects_cards a {
-  width: 100%;
-  height: 180px;
-}
-.projects_cards img {
-  height: 180px;
-  border-radius: 4px 4px 0 0;
-  object-fit: cover;
-  aspect-ratio: 16/9;
-}
-.projects_cards-image:hover {
-  opacity: 40%;
+  transition: 0.2s all;
 }
 .projects_cards-info {
   background-color: var(--discord-extraDark);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -23,9 +23,6 @@ const Footer = () => {
                             <ListGroupItem className='list-group'>
                                 <a className='anchor' href="#projects">Projects</a>
                             </ListGroupItem>
-                            {/* <ListGroupItem className='list-group'>
-                                <a className='anchor' href="#">Contact</a>
-                            </ListGroupItem> */}
                         </ListGroup>
                     </Col>
                     <Col md={4}>
@@ -43,11 +40,6 @@ const Footer = () => {
                                     <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                                 </a>
                             </ListGroupItem>
-                            {/* <ListGroupItem className='list-group'>
-                                <a className='anchor' href="#">
-                                    <FontAwesomeIcon icon={faTwitter} /> Twitter
-                                </a>
-                            </ListGroupItem> */}
                         </ListGroup>
                     </Col>
                 </Row>
