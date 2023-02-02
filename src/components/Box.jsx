@@ -22,8 +22,8 @@ const Box = () => {
                     <div className="projects_cards-info">
                         <h3 className="projects_name">Rankedly App</h3>
                         <p className="projects_project-info">
-                           Aplicación de torneos de esports con React Native que permite a los usuarios crear, administrar y unirse a torneos.
-                               <br/><br />
+                            Aplicación de torneos de esports con React Native que permite a los usuarios crear, administrar y unirse a torneos.
+                            <br /><br />
                         </p>
                         <div className="projects_project-stack">
                             <p>React Native</p>
