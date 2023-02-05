@@ -153,6 +153,9 @@ img {
   max-width: 700px;
   margin-top: 16px;
 }
+.col-2 {
+  width: 19.5% !important;
+}
 .skill-box {
   align-items: center;
   transition: 0.3s;
