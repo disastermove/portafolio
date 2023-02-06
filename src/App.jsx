@@ -2,8 +2,9 @@ import "./App.css"
 import React from 'react';
 import Footer from './components/Footer';
 import Skills from "./components/Skills";
-import { Navbar, Nav, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col, Image } from 'react-bootstrap';
 import Box from "./components/Box";
+import Github from "./components/Github";
 
 const App = () => {
   return (
@@ -16,14 +17,14 @@ const App = () => {
           <Nav.Link className='navbar-links' href="#skills">Skills</Nav.Link>
         </Nav>
       </Navbar>
-      <Row className='mt-5 align-items-center justify-content-between animate-fade-in-down'>
+      <Row className='mt-5 align-items-center justify-content-evenly animate-fade-in-down'>
         <Col md={4}>
           <div className="description-info">
             <h1>FRONT END, WEB AND APP DEVELOPER.</h1>
             <Image src="/imagenes/1662374677059.webp" alt="" roundedCircle className='mb-3' />
           </div>
         </Col>
-        <Col md={8} id="about">
+        <Col md={7} id="about">
           <p>
             Soy Manel, un desarrollador web y movil apasionado en el campo de la
             programación. Tengo habilidades en varios lenguajes de programación,
@@ -41,6 +42,7 @@ const App = () => {
       </Row>
       <Box />
       <Skills />
+      <Github />
       <Footer />
     </Container>
   );

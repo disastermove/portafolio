@@ -43,7 +43,7 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p className="text-center">Copyright © 2022 Manel Ponce</p>
+                        <p className="text-center">Copyright © 2023 Manel Ponce</p>
                     </Col>
                 </Row>
             </Container>
