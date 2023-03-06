@@ -1,11 +1,14 @@
 import React from "react";
 import { faGithub, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from 'react-i18next';
 
 const Box = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="projects_container animate-fade-in-down" id="projects">
-            <h2 className="projects_title">Projects</h2>
+            <h2 className="projects_title">{t('project')}</h2>
             <div className="projects_cards-container">
                 <div className="projects_cards">
                     <a
@@ -22,7 +25,7 @@ const Box = () => {
                     <div className="projects_cards-info">
                         <h3 className="projects_name">Rankedly App</h3>
                         <p className="projects_project-info">
-                            Aplicación de torneos de esports con React Native que permite a los usuarios crear, administrar y unirse a torneos.
+                            {t('rank')}
                             <br /><br />
                         </p>
                         <div className="projects_project-stack">
@@ -56,7 +59,7 @@ const Box = () => {
                     <div className="projects_cards-info">
                         <h3 className="projects_name">Rick and Morty API v2</h3>
                         <p className="projects_project-info">
-                            Proyecto rehecho de Rick y Morty con responsive diseño y utilizando la API de Rick y Morty.
+                            {t('rick')}
                             <br></br> <br></br>
                             <br></br>
                         </p>

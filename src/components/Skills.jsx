@@ -1,9 +1,12 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="skills" className='mb-5 mt-5 animate-fade-in-down'>
-            <h2 className='text-center'>My Skills</h2>
+            <h2 className='text-center'>{t('skills')}</h2>
             <Container className='grids'>
                 <Row className='rower'>
                     <Col xs={2}>

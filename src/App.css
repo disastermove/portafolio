@@ -321,3 +321,19 @@ img {
     flex-direction: row;
   }
 }
+.LanguageSwitcher button {
+  background-color: #2b2d42;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.LanguageSwitcher button:focus {
+  outline: none;
+}
+
+.LanguageSwitcher button:hover {
+  opacity: 0.8;
+}
