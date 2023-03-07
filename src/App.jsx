@@ -25,9 +25,9 @@ const App = () => {
           <Nav.Link className="navbar-links" href="#skills">
             Skills
           </Nav.Link>
-          <LanguageSwitcher />
         </Nav>
       </Navbar>
+      <LanguageSwitcher />
       <Row className="mt-5 align-items-center justify-content-evenly animate-fade-in-down">
         <Col md={4}>
           <div className="description-info">

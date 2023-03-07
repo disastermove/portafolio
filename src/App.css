@@ -301,6 +301,30 @@ img {
   transition: 0.5s all;
   transition: 0.5s all;
 }
+.LanguageSwitcher {
+  position: fixed;
+  top: 90%;
+  z-index: 1;
+  left: 90%;
+  z-index: 1;
+}
+.LanguageSwitcher button {
+  background-color: #2b2d42;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.LanguageSwitcher button:focus {
+  outline: none;
+}
+
+.LanguageSwitcher button:hover {
+  opacity: 0.8;
+}
+
 @media (min-width: 576px) {
   .project {
     width: 300px;
@@ -320,20 +344,19 @@ img {
   .projects_cards-container {
     flex-direction: row;
   }
-}
-.LanguageSwitcher button {
-  background-color: #2b2d42;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 4px;
-  cursor: pointer;
-}
-
-.LanguageSwitcher button:focus {
-  outline: none;
-}
-
-.LanguageSwitcher button:hover {
-  opacity: 0.8;
+  .LanguageSwitcher {
+    position: fixed;
+    top: 90%;
+    z-index: 1;
+    left: 80%;
+    z-index: 1;
+  }
+  .LanguageSwitcher button {
+    background-color: #2b2d42;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+  }
 }
