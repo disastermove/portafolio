@@ -1,9 +1,9 @@
 {
   "job": "FRONT END, WEB AND APP DEVELOPER.",
-  "info1": "Mein Name ist Manel und ich habe eine Leidenschaft für Web- und Mobilprogrammierung. Ich beherrsche mehrere Programmiersprachen wie Javascript, React und React Native, die es mir ermöglichen, mich schnell an neue Projekte und Technologien anzupassen.",
-  "info2": "Dank meiner agilen und vielseitigen Einstellung fordere ich mich gerne heraus und verbessere mich ständig. Außerdem bevorzuge ich die Freude an der Arbeit und die Bereicherung meines Wissens im Bereich Technik. Diese Eigenschaften machen mich zu einem wertvollen Mitglied jedes Entwicklungsteams und zu einer großartigen Ergänzung für jedes Projekt.",
-  "project": "Projekte",
-  "rank": "Esports-Turnier-App mit React Native, mit der Benutzer Turniere erstellen, verwalten und ihnen beitreten können.",
-  "rick": "Überarbeitetes Rick and Morty Projekt mit responsivem Design und unter Verwendung der Rick and Morty API.",
-  "skills" :"Meine Fertigkeiten"
+  "info1": "My name is Manel and I have a passion for web and mobile programming. I master several programming languages ​​such as Javascript, React, and React Native, which allow me to quickly adapt to new projects and technologies.",
+  "info2": "Thanks to my agile and versatile attitude, I enjoy challenging myself and constantly improving. Also, I prefer to find joy in work and enrich my knowledge in the field of technology. These qualities make me a valuable member of any development team and a great addition to any project.",
+  "project": "Projects",
+  "rank": "Esports tournament app with React Native, allowing users to create, manage, and join tournaments.",
+  "rick": "Revised Rick and Morty project with responsive design and using the Rick and Morty API.",
+  "skills": "My Skills"
 }
