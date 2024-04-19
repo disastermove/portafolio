@@ -11,7 +11,7 @@ nav {
 }
 .project,
 body {
-  background-color: rgb(9, 12, 16);
+  background-color: #212429;
 }
 .project img,
 img {
@@ -73,10 +73,8 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 nav {
-  background-color: rgb(22, 27, 34, 0.4);
   border-radius: 8px;
-  /* backdrop-filter: blur(10px); */
-  border: 1px solid rgb(48, 54, 61);
+  /* backdrop-filter: blur(40px); */
   margin-bottom: 5px;
   align-items: center !important;
   justify-content: center !important;
@@ -247,9 +245,9 @@ img {
   background-image: linear-gradient(135deg, #0fa, #4579f5 53%, #9c42f5);
 }
 .list-group {
-  background-color: rgb(22, 27, 34, 0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgb(22, 27, 34, 0.22);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
   border: 1px solid rgb(48, 54, 61);
 }
 .list-group-item {
@@ -278,8 +276,8 @@ img {
   max-width: 700px;
   padding: 5px;
   background-color: rgb(22, 27, 34, 0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
   border: 1px solid rgb(48, 54, 61);
   border-radius: 24px;
   margin-top: 16px;
@@ -301,8 +299,8 @@ img {
 .skill-box:hover {
   border: 1px solid rgb(48, 54, 61);
   background-color: rgb(22, 27, 34, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
 }
 .grids {
   align-items: center;
@@ -380,7 +378,11 @@ p {
   justify-content: center;
   flex-direction: column;
 }
+.skilla,
 .projects_title {
+  font-size: 3rem;
+  line-height: 40px;
+  font-family: "Bricolage Grotesque", sans-serif;
   margin-bottom: 30px;
 }
 .projects_cards {
@@ -407,17 +409,14 @@ p {
   object-fit: cover;
   aspect-ratio: 16/9;
 }
-.projects_cards-image:hover {
-  opacity: 40%;
-  transition: 0.2s all;
-}
+
 .projects_cards-info {
   /* background-color: rgb(22, 27, 34); */
   border-radius: 0 0 24px 24px;
   height: 100%;
   padding: 10px;
   background-color: rgb(22, 27, 34, 0.4);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(40px);
   border: 1px solid rgb(48, 54, 61);
 }
 .projects_project-info {
@@ -496,309 +495,326 @@ p {
     border: none;
     border-radius: 5px;
     padding: 9px;
-    #projects,
-    .project,
-    .projects,
-    .skill-box,
-    nav {
-      display: flex;
-    }
-    .project,
-    body {
-      background-color: rgb(9, 12, 16);
-    }
-    .projectimg,
-    img {
-      object-fit: cover;
-    }
-    #projectsh2,
-    .project,
-    .project .btn {
-      text-align: center;
-    }
-    .project .btn,
-    .projectimg {
-      width: 100%;
-      transition: opacity 0.3s;
-    }
-    .anchor,
-    .project .btn {
-      text-decoration: none;
-    }
-    :root {
-      --discord-dark: #3b3f58;
-      --discord-light: #f5f5f5;
-      --white: #fff;
-      --discord-green: #5ac8fa;
-      --discord-extraDark: #2b2d42;
-    }
-    body {
-      color: var(--discord-light);
-      font-family: system-ui;
-      scroll-behavior: smooth;
-    }
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    nav {
-      background-color: rgb(22, 27, 34);
-      border-radius: 8px;
-      margin-bottom: 5px;
-      border: 1px solid rgb(48, 54, 61);
-      align-items: center !important;
-      justify-content: center !important;
-    }
-    nav a {
-      font-weight: 400 !important;
-      color: #bebebe !important;
-    }
-    .projecth3,
-    h1 {
-      color: #fff;
-      font-size: 1.5rem;
-    }
-    nav a:before,
-    nav a:after {
-      content: "";
-      font-weight: 400;
-      position: relative;
-      color: var(--white);
-      opacity: 0;
-      content: "<";
-      transition: opacity 0.2s ease;
-    }
-    nav a:after {
-      content: "/>";
-    }
-    nav a:hover:before,
-    nav a:hover:after {
-      opacity: 1;
-    }
-    .navbar-links {
-      padding: 5px 15px;
-    }
-    .anchor,
-    .list-group,
-    .project {
-      color: var(--discord-light);
-    }
-    .navbar-links:hover {
-      color: var(--white) !important;
-    }
-    h1 {
-      margin-bottom: 2rem;
-    }
-    img {
-      aspect-ratio: 16/9;
-    }
-    .image {
-      width: 300px !important;
-      height: 200px !important;
-    }
-    #projects {
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-    .projects {
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-    }
+  }
+  .project,
+  body {
+    background-color: #212429;
+  }
+  .projectimg,
+  img {
+    object-fit: cover;
+  }
+  #projectsh2,
+  .project,
+  .project .btn {
+    text-align: center;
+  }
+  .project .btn,
+  .projectimg {
+    width: 100%;
+    transition: opacity 0.3s;
+  }
+  .anchor,
+  .project .btn {
+    text-decoration: none;
+  }
+  :root {
+    --discord-dark: #3b3f58;
+    --discord-light: #f5f5f5;
+    --white: #fff;
+    --discord-green: #5ac8fa;
+    --discord-extraDark: #2b2d42;
+  }
+  body {
+    color: var(--discord-light);
+    font-family: system-ui;
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    border-radius: 8px;
+    margin-bottom: 5px;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  nav a {
+    font-weight: 400 !important;
+    color: #bebebe !important;
+  }
+  .projecth3,
+  h1 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  nav a:before,
+  nav a:after {
+    content: "";
+    font-weight: 400;
+    position: relative;
+    color: var(--white);
+    opacity: 0;
+    content: "<";
+    transition: opacity 0.2s ease;
+  }
+  nav a:after {
+    content: "/>";
+  }
+  nav a:hover:before,
+  nav a:hover:after {
+    opacity: 1;
+  }
+  .navbar-links {
+    padding: 5px 15px;
+  }
+  .anchor,
+  .list-group,
+  .project {
+    color: var(--discord-light);
+  }
+  .navbar-links:hover {
+    color: var(--white) !important;
+  }
+  h1 {
+    margin-bottom: 2rem;
+  }
+  img {
+    aspect-ratio: 16/9;
+  }
+  .image {
+    width: 300px !important;
+    height: 200px !important;
+  }
+  #projects {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .projects {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .project {
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .projectimg {
+    height: auto;
+  }
+  .projecth3 {
+    margin-top: 1rem;
+  }
+  .projectp {
+    margin-bottom: 1rem;
+  }
+
+  .anchor:hover {
+    color: var(--white);
+  }
+  .description-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .description-infoimg {
+    width: 200px !important;
+    height: 200px !important;
+    border: 5px solid #c3c3e51c;
+  }
+
+  .col-2 {
+    width: 19.5% !important;
+  }
+  .skill-box {
+    align-items: center;
+    transition: 0.3s;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+  }
+  .grids {
+    align-items: center;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .skill-boximg {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+    object-fit: contain;
+  }
+  .skill-boxp {
+    padding: 3px 6px;
+    border-radius: 6px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  @media (min-width: 576px) {
     .project {
       width: 300px;
       margin: 1rem;
+      background-color: var(--discord-dark);
+      color: var(--discord-light);
       padding: 1rem;
+      display: flex;
+      text-align: center;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       flex-direction: column;
-    }
-    .projectimg {
-      height: auto;
-    }
-    .projecth3 {
-      margin-top: 1rem;
-    }
-    .projectp {
-      margin-bottom: 1rem;
-    }
-    .list-group {
-      border: 1px solid rgb(48, 54, 61);
-      background: rgb(22, 27, 34);
-    }
-    .anchor:hover {
-      color: var(--white);
     }
     .description-info {
+      display: block;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #606060;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #909090;
+  }
+  .animate-fade-in-down {
+    animation: 0.5s 1s both fade-in-down;
+  }
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-125%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .projects_container,
+  .projects_cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .projects_title {
+    margin-bottom: 30px;
+  }
+  .projects_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 390px;
+    justify-content: center;
+    margin: 10px 10px 30px; /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24); */
+  }
+  .projects_cards-image {
+    width: 320px;
+    transition: 0.2s all;
+    height: 100%;
+  }
+  .projects_cardsa {
+    width: 100%;
+    height: 180px;
+  }
+  .projects_cardsimg {
+    height: 180px;
+    border-radius: 4px 4px 0 0;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+
+  .projects_cards-info {
+    /* background-color: rgb(22, 27, 34); */
+    border-radius: 0 0 24px 24px;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(22, 27, 34, 0.4);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgb(48, 54, 61);
+  }
+  .projects_project-info {
+    height: 96px;
+  }
+  .projects_project-stack-github {
+    color: #5b5e62;
+    transition: 0.5s all;
+    margin: 5px;
+  }
+  .projects_project-stack-github:hover {
+    transition: 0.5s all;
+    color: #fff;
+  }
+  .projects_project-stack-deploy {
+    color: #5b5e62;
+    transition: 0.5s all;
+    margin: 5px;
+  }
+  .projects_project-stack-deploy:hover {
+    color: #fff;
+    transition: 0.5s all;
+  }
+  .LanguageSwitcher {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    z-index: 1;
+  }
+  .LanguageSwitcherbutton {
+    background-color: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+  }
+  .LanguageSwitcherbutton:focus {
+    outline: none;
+  }
+  .LanguageSwitcherbutton:hover {
+    opacity: 0.8;
+  }
+  @media (min-width: 576px) {
+    .project {
+      width: 300px;
+      margin: 1rem;
+      background-color: var(--discord-dark);
+      color: var(--discord-light);
+      padding: 1rem;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .description-infoimg {
-      width: 200px !important;
-      height: 200px !important;
-      border: 5px solid #c3c3e51c;
-    }
-    .rower {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 50px;
-      max-width: 700px;
-      margin-top: 16px;
-    }
-    .col-2 {
-      width: 19.5% !important;
-    }
-    .skill-box {
-      align-items: center;
-      transition: 0.3s;
-      justify-content: center;
-      flex-direction: column;
-      margin: 5px;
-    }
-    .grids {
-      align-items: center;
-      color: var(--white);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       text-align: center;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
     }
-    .skill-boximg {
-      width: 64px;
-      height: 64px;
-      margin-bottom: 5px;
-      object-fit: contain;
+    .description-info {
+      display: block;
     }
-    .skill-boxp {
-      padding: 3px 6px;
-      border-radius: 6px;
-      margin-top: 10px;
-      background: rgba(255, 255, 255, 0.1);
-    }
-    @media (min-width: 576px) {
-      .project {
-        width: 300px;
-        margin: 1rem;
-        background-color: var(--discord-dark);
-        color: var(--discord-light);
-        padding: 1rem;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-      }
-      .description-info {
-        display: block;
-      }
-    }
-    ::-webkit-scrollbar {
-      width: 16px;
-    }
-    ::-webkit-scrollbar-thumb {
-      height: 56px;
-      border-radius: 8px;
-      border: 4px solid transparent;
-      background-clip: content-box;
-      background-color: #606060;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background-color: #909090;
-    }
-    .animate-fade-in-down {
-      animation: 0.5s 1s both fade-in-down;
-    }
-    @keyframes fade-in-down {
-      0% {
-        opacity: 0;
-        transform: translateY(-125%);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .projects_container,
     .projects_cards-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .projects_title {
-      margin-bottom: 30px;
-    }
-    .projects_cards {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      width: 320px;
-      height: 390px;
-      justify-content: center;
-      margin: 10px 10px 30px; /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24); */
-    }
-    .projects_cards-image {
-      width: 320px;
-      transition: 0.2s all;
-      height: 100%;
-    }
-    .projects_cardsa {
-      width: 100%;
-      height: 180px;
-    }
-    .projects_cardsimg {
-      height: 180px;
-      border-radius: 4px 4px 0 0;
-      object-fit: cover;
-      aspect-ratio: 16/9;
-    }
-    .projects_cards-image:hover {
-      opacity: 40%;
-      transition: 0.2s all;
-    }
-    .projects_cards-info {
-      /* background-color: rgb(22, 27, 34); */
-      border-radius: 0 0 24px 24px;
-      height: 100%;
-      padding: 10px;
-      background-color: rgb(22, 27, 34, 0.4);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgb(48, 54, 61);
-    }
-    .projects_project-info {
-      height: 96px;
-    }
-    .projects_project-stack-github {
-      color: #5b5e62;
-      transition: 0.5s all;
-      margin: 5px;
-    }
-    .projects_project-stack-github:hover {
-      transition: 0.5s all;
-      color: #fff;
-    }
-    .projects_project-stack-deploy {
-      color: #5b5e62;
-      transition: 0.5s all;
-      margin: 5px;
-    }
-    .projects_project-stack-deploy:hover {
-      color: #fff;
-      transition: 0.5s all;
+      flex-direction: row;
     }
     .LanguageSwitcher {
       position: fixed;
       top: 90%;
-      left: 90%;
+      left: 80%;
       z-index: 1;
     }
-    .LanguageSwitcherbutton {
+    .LanguageSwitcher button {
       background-color: #2b2d42;
       color: #fff;
       border: none;
@@ -806,349 +822,332 @@ p {
       padding: 9px;
       cursor: pointer;
     }
-    .LanguageSwitcherbutton:focus {
-      outline: none;
-    }
-    .LanguageSwitcherbutton:hover {
-      opacity: 0.8;
-    }
-    @media (min-width: 576px) {
-      .project {
-        width: 300px;
-        margin: 1rem;
-        background-color: var(--discord-dark);
-        color: var(--discord-light);
-        padding: 1rem;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-      }
-      .description-info {
-        display: block;
-      }
-      .projects_cards-container {
-        flex-direction: row;
-      }
-      .LanguageSwitcher {
-        position: fixed;
-        top: 90%;
-        left: 80%;
-        z-index: 1;
-      }
-      .LanguageSwitcher button {
-        background-color: #2b2d42;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 9px;
-        cursor: pointer;
-      }
-    }
-    #projects,
-    .project,
-    .projects,
-    .skill-box,
-    nav {
-      display: flex;
-    }
-    .project,
-    body {
-      background-color: rgb(9, 12, 16);
-    }
-    .projectimg,
-    img {
-      object-fit: cover;
-    }
-    #projectsh2,
-    .project,
-    .project .btn {
-      text-align: center;
-    }
-    .project .btn,
-    .projectimg {
-      width: 100%;
-      transition: opacity 0.3s;
-    }
-    .anchor,
-    .project .btn {
-      text-decoration: none;
-    }
-    :root {
-      --discord-dark: #3b3f58;
-      --discord-light: #f5f5f5;
-      --white: #fff;
-      --discord-green: #5ac8fa;
-      --discord-extraDark: #2b2d42;
-    }
-    body {
-      color: var(--discord-light);
-      font-family: system-ui;
-      scroll-behavior: smooth;
-    }
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    nav {
-      background-color: rgb(22, 27, 34);
-      border-radius: 8px;
-      margin-bottom: 5px;
-      border: 1px solid rgb(48, 54, 61);
-      align-items: center !important;
-      justify-content: center !important;
-    }
-    nav a {
-      font-weight: 400 !important;
-      color: #bebebe !important;
-    }
-    .projecth3,
-    h1 {
-      color: #fff;
-      font-size: 1.5rem;
-    }
-    nav a:before,
-    nav a:after {
-      content: "";
-      font-weight: 400;
-      position: relative;
-      color: var(--white);
-      opacity: 0;
-      content: "<";
-      transition: opacity 0.2s ease;
-    }
-    nav a:after {
-      content: "/>";
-    }
-    nav a:hover:before,
-    nav a:hover:after {
-      opacity: 1;
-    }
-    .navbar-links {
-      padding: 5px 15px;
-    }
-    .anchor,
-    .list-group,
-    .project {
-      color: var(--discord-light);
-    }
-    .navbar-links:hover {
-      color: var(--white) !important;
-    }
-    h1 {
-      margin-bottom: 2rem;
-    }
-    img {
-      aspect-ratio: 16/9;
-    }
-    .image {
-      width: 300px !important;
-      height: 200px !important;
-    }
-    #projects {
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-    .projects {
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-    }
+  }
+  #projects,
+  .project,
+  .projects,
+  .skill-box,
+  nav {
+    display: flex;
+  }
+  .project,
+  body {
+    background-color: #212429;
+  }
+  .projectimg,
+  img {
+    object-fit: cover;
+  }
+  #projectsh2,
+  .project,
+  .project .btn {
+    text-align: center;
+  }
+  .project .btn,
+  .projectimg {
+    width: 100%;
+    transition: opacity 0.3s;
+  }
+  .anchor,
+  .project .btn {
+    text-decoration: none;
+  }
+  :root {
+    --discord-dark: #3b3f58;
+    --discord-light: #f5f5f5;
+    --white: #fff;
+    --discord-green: #5ac8fa;
+    --discord-extraDark: #2b2d42;
+  }
+  body {
+    color: var(--discord-light);
+    font-family: system-ui;
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    border-radius: 8px;
+    margin-bottom: 5px;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  nav a {
+    font-weight: 400 !important;
+    color: #bebebe !important;
+  }
+  .projecth3,
+  h1 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  nav a:before,
+  nav a:after {
+    content: "";
+    font-weight: 400;
+    position: relative;
+    color: var(--white);
+    opacity: 0;
+    content: "<";
+    transition: opacity 0.2s ease;
+  }
+  nav a:after {
+    content: "/>";
+  }
+  nav a:hover:before,
+  nav a:hover:after {
+    opacity: 1;
+  }
+  .navbar-links {
+    padding: 5px 15px;
+  }
+  .anchor,
+  .list-group,
+  .project {
+    color: var(--discord-light);
+  }
+  .navbar-links:hover {
+    color: var(--white) !important;
+  }
+  h1 {
+    margin-bottom: 2rem;
+  }
+  img {
+    aspect-ratio: 16/9;
+  }
+  .image {
+    width: 300px !important;
+    height: 200px !important;
+  }
+  #projects {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .projects {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .project {
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .projectimg {
+    height: auto;
+  }
+  .projecth3 {
+    margin-top: 1rem;
+  }
+  .projectp {
+    margin-bottom: 1rem;
+  }
+
+  .anchor:hover {
+    color: var(--white);
+  }
+  .description-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .description-infoimg {
+    width: 200px !important;
+    height: 200px !important;
+    border: 5px solid #c3c3e51c;
+  }
+
+  .col-2 {
+    width: 19.5% !important;
+  }
+  .skill-box {
+    align-items: center;
+    transition: 0.3s;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+  }
+  .grids {
+    align-items: center;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .skill-boximg {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+    object-fit: contain;
+  }
+  .skill-boxp {
+    padding: 3px 6px;
+    border-radius: 6px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  @media (min-width: 576px) {
     .project {
       width: 300px;
       margin: 1rem;
+      background-color: var(--discord-dark);
+      color: var(--discord-light);
       padding: 1rem;
+      display: flex;
+      text-align: center;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       flex-direction: column;
-    }
-    .projectimg {
-      height: auto;
-    }
-    .projecth3 {
-      margin-top: 1rem;
-    }
-    .projectp {
-      margin-bottom: 1rem;
-    }
-    .list-group {
-      border: 1px solid rgb(48, 54, 61);
-      background: rgb(22, 27, 34);
-    }
-    .anchor:hover {
-      color: var(--white);
     }
     .description-info {
+      display: block;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #606060;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #909090;
+  }
+  .animate-fade-in-down {
+    animation: 0.5s 1s both fade-in-down;
+  }
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-125%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .projects_container,
+  .projects_cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .projects_title {
+    margin-bottom: 30px;
+  }
+  .projects_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 390px;
+    justify-content: center;
+    margin: 10px 10px 30px; /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24); */
+  }
+  .projects_cards-image {
+    width: 320px;
+    transition: 0.2s all;
+    height: 100%;
+  }
+  .projects_cardsa {
+    width: 100%;
+    height: 180px;
+  }
+  .projects_cardsimg {
+    height: 180px;
+    border-radius: 4px 4px 0 0;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+  .projects_cards-info {
+    /* background-color: rgb(22, 27, 34); */
+    border-radius: 0 0 24px 24px;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(22, 27, 34, 0.4);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgb(48, 54, 61);
+  }
+  .projects_project-info {
+    height: 96px;
+  }
+  .projects_project-stack-github {
+    color: #5b5e62;
+    transition: 0.5s all;
+    margin: 5px;
+  }
+  .projects_project-stack-github:hover {
+    transition: 0.5s all;
+    color: #fff;
+  }
+  .projects_project-stack-deploy {
+    color: #5b5e62;
+    transition: 0.5s all;
+    margin: 5px;
+  }
+  .projects_project-stack-deploy:hover {
+    color: #fff;
+    transition: 0.5s all;
+  }
+  .LanguageSwitcher {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    z-index: 1;
+  }
+  .LanguageSwitcherbutton {
+    background-color: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+  }
+  .LanguageSwitcherbutton:focus {
+    outline: none;
+  }
+  .LanguageSwitcherbutton:hover {
+    opacity: 0.8;
+  }
+  @media (min-width: 576px) {
+    .project {
+      width: 300px;
+      margin: 1rem;
+      background-color: var(--discord-dark);
+      color: var(--discord-light);
+      padding: 1rem;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .description-infoimg {
-      width: 200px !important;
-      height: 200px !important;
-      border: 5px solid #c3c3e51c;
-    }
-    .rower {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 50px;
-      max-width: 700px;
-      margin-top: 16px;
-    }
-    .col-2 {
-      width: 19.5% !important;
-    }
-    .skill-box {
-      align-items: center;
-      transition: 0.3s;
-      justify-content: center;
-      flex-direction: column;
-      margin: 5px;
-    }
-    .grids {
-      align-items: center;
-      color: var(--white);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       text-align: center;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
     }
-    .skill-boximg {
-      width: 64px;
-      height: 64px;
-      margin-bottom: 5px;
-      object-fit: contain;
+    .description-info {
+      display: block;
     }
-    .skill-boxp {
-      padding: 3px 6px;
-      border-radius: 6px;
-      margin-top: 10px;
-      background: rgba(255, 255, 255, 0.1);
-    }
-    @media (min-width: 576px) {
-      .project {
-        width: 300px;
-        margin: 1rem;
-        background-color: var(--discord-dark);
-        color: var(--discord-light);
-        padding: 1rem;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-      }
-      .description-info {
-        display: block;
-      }
-    }
-    ::-webkit-scrollbar {
-      width: 16px;
-    }
-    ::-webkit-scrollbar-thumb {
-      height: 56px;
-      border-radius: 8px;
-      border: 4px solid transparent;
-      background-clip: content-box;
-      background-color: #606060;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background-color: #909090;
-    }
-    .animate-fade-in-down {
-      animation: 0.5s 1s both fade-in-down;
-    }
-    @keyframes fade-in-down {
-      0% {
-        opacity: 0;
-        transform: translateY(-125%);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .projects_container,
     .projects_cards-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .projects_title {
-      margin-bottom: 30px;
-    }
-    .projects_cards {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      width: 320px;
-      height: 390px;
-      justify-content: center;
-      margin: 10px 10px 30px; /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24); */
-    }
-    .projects_cards-image {
-      width: 320px;
-      transition: 0.2s all;
-      height: 100%;
-    }
-    .projects_cardsa {
-      width: 100%;
-      height: 180px;
-    }
-    .projects_cardsimg {
-      height: 180px;
-      border-radius: 4px 4px 0 0;
-      object-fit: cover;
-      aspect-ratio: 16/9;
-    }
-    .projects_cards-image:hover {
-      opacity: 40%;
-      transition: 0.2s all;
-    }
-    .projects_cards-info {
-      /* background-color: rgb(22, 27, 34); */
-      border-radius: 0 0 24px 24px;
-      height: 100%;
-      padding: 10px;
-      background-color: rgb(22, 27, 34, 0.4);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgb(48, 54, 61);
-    }
-    .projects_project-info {
-      height: 96px;
-    }
-    .projects_project-stack-github {
-      color: #5b5e62;
-      transition: 0.5s all;
-      margin: 5px;
-    }
-    .projects_project-stack-github:hover {
-      transition: 0.5s all;
-      color: #fff;
-    }
-    .projects_project-stack-deploy {
-      color: #5b5e62;
-      transition: 0.5s all;
-      margin: 5px;
-    }
-    .projects_project-stack-deploy:hover {
-      color: #fff;
-      transition: 0.5s all;
+      flex-direction: row;
     }
     .LanguageSwitcher {
       position: fixed;
       top: 90%;
-      left: 90%;
+      left: 80%;
       z-index: 1;
     }
-    .LanguageSwitcherbutton {
+    .LanguageSwitcher button {
       background-color: #2b2d42;
       color: #fff;
       border: none;
@@ -1156,50 +1155,10 @@ p {
       padding: 9px;
       cursor: pointer;
     }
-    .LanguageSwitcherbutton:focus {
-      outline: none;
-    }
-    .LanguageSwitcherbutton:hover {
-      opacity: 0.8;
-    }
-    @media (min-width: 576px) {
-      .project {
-        width: 300px;
-        margin: 1rem;
-        background-color: var(--discord-dark);
-        color: var(--discord-light);
-        padding: 1rem;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-      }
-      .description-info {
-        display: block;
-      }
-      .projects_cards-container {
-        flex-direction: row;
-      }
-      .LanguageSwitcher {
-        position: fixed;
-        top: 90%;
-        left: 80%;
-        z-index: 1;
-      }
-      .LanguageSwitcher button {
-        background-color: #2b2d42;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 9px;
-        cursor: pointer;
-      }
-    }
-    /* cursor: pointer;
+  }
+  /* cursor: pointer;
     background-color: rgb(22, 27, 34);
     border-radius: 8px;
     margin-bottom: 5px;
     border: 1px solid rgb(48, 54, 61); */
-  }
 }

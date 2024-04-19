@@ -6,7 +6,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="mb-5 mt-5 animate-fade-in-down">
-      <h2 className="text-center">{t("skills")}</h2>
+      <h2 className="text-center skilla">{t("skills")}</h2>
       <Container className="grids">
         <Row className="rower">
           <Col xs={2}>
@@ -24,8 +24,8 @@ const Skills = () => {
                   fill="#fff"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M4.306 1a3 3 0 0 0-2.97 3.424l1.57 10.983a3 3 0 0 0 .994 1.834l6.124 5.36a3 3 0 0 0 3.952 0l6.124-5.36a3 3 0 0 0 .995-1.834l1.569-10.983A3 3 0 0 0 19.694 1zm-.99 3.141A1 1 0 0 1 4.306 3h15.388a1 1 0 0 1 .99 1.141l-1.57 10.984a1 1 0 0 1-.33.61l-6.125 5.36a1 1 0 0 1-1.318 0l-6.124-5.36a1 1 0 0 1-.332-.61z"
                   fill="#fff"
                 />
@@ -48,8 +48,8 @@ const Skills = () => {
                   fill="#fff"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M4.306 1a3 3 0 0 0-2.97 3.424l1.57 10.983a3 3 0 0 0 .994 1.834l6.124 5.36a3 3 0 0 0 3.952 0l6.124-5.36a3 3 0 0 0 .995-1.834l1.569-10.983A3 3 0 0 0 19.694 1zm-.99 3.141A1 1 0 0 1 4.306 3h15.388a1 1 0 0 1 .99 1.141l-1.57 10.984a1 1 0 0 1-.33.61l-6.125 5.36a1 1 0 0 1-1.318 0l-6.124-5.36a1 1 0 0 1-.332-.61z"
                   fill="#fff"
                 />
@@ -72,8 +72,8 @@ const Skills = () => {
                   fill="#fff"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M1.336 4.424A3 3 0 0 1 4.306 1h15.388a3 3 0 0 1 2.97 3.424l-1.57 10.983a3 3 0 0 1-.994 1.834l-6.125 5.36a3 3 0 0 1-3.95 0L3.9 17.24a3 3 0 0 1-.995-1.834zM4.306 3a1 1 0 0 0-.99 1.141l1.57 10.984a1 1 0 0 0 .33.61l6.126 5.36a1 1 0 0 0 1.316 0l6.126-5.36a1 1 0 0 0 .33-.61l1.57-10.984A1 1 0 0 0 19.694 3z"
                   fill="#fff"
                 />
@@ -169,9 +169,9 @@ const Skills = () => {
                 <path
                   d="M12 3H9a3 3 0 0 0 0 6m3-6v6m0-6h3a3 3 0 1 1 0 6m-3 0H9m3 0h3m-3 0v6M9 9a3 3 0 1 0 0 6m6-6a3 3 0 1 1 0 6 3 3 0 0 1 0-6m-3 6H9m3 0v3a3 3 0 1 1-3-3"
                   stroke="#fff"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>Figma</p>
