@@ -27,6 +27,21 @@ img {
   width: 100%;
   transition: opacity 0.3s;
 }
+.cv-btn {
+  background: linear-gradient(114deg, #4579f5 43%, #9c42f5);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+  transition: all cubic-bezier(0.01, 0.73, 0.33, 2.55) 0.5s;
+}
+.cv-btn:hover {
+  /* background: linear-gradient(114deg, #9c42f5 43%, #4579f5); */
+  color: #fff;
+  transform: scale(1.05);
+  transition: all cubic-bezier(0.01, 0.73, 0.33, 2.55) 0.5s;
+}
 .anchor,
 .project .btn {
   text-decoration: none;
@@ -38,11 +53,11 @@ img {
   --discord-green: #5ac8fa;
   --discord-extraDark: #2b2d42;
 }
-.navs {
+/* .navs {
   position: sticky;
   top: 3%;
   z-index: 99;
-}
+} */
 body {
   color: var(--discord-light);
   font-family: system-ui;
@@ -60,7 +75,7 @@ body {
 nav {
   background-color: rgb(22, 27, 34, 0.4);
   border-radius: 8px;
-  backdrop-filter: blur(40px);
+  /* backdrop-filter: blur(10px); */
   border: 1px solid rgb(48, 54, 61);
   margin-bottom: 5px;
   align-items: center !important;
@@ -184,9 +199,9 @@ img {
   height: 240px;
   border-radius: 50%;
   z-index: -1;
-  bottom: 40%;
+  top: 72%;
   left: 38%;
-  background-image: linear-gradient(135deg, #0fa, #4579f5 53%, #9c42f5);
+  background-image: linear-gradient(12deg, #0fa, #4579f5 53%, #9c42f5);
 }
 .sec__5__circle4 {
   display: block;
@@ -216,7 +231,7 @@ img {
   height: 196px;
   border-radius: 50%;
   z-index: -1;
-  bottom: -101%;
+  bottom: -60%;
   right: 17%;
   background-image: linear-gradient(135deg, #ff5e00, #f54562 54%, #c32de1);
 }
@@ -232,8 +247,10 @@ img {
   background-image: linear-gradient(135deg, #0fa, #4579f5 53%, #9c42f5);
 }
 .list-group {
+  background-color: rgb(22, 27, 34, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgb(48, 54, 61);
-  background: rgb(22, 27, 34);
 }
 .list-group-item {
   border-radius: 0;
@@ -261,7 +278,8 @@ img {
   max-width: 700px;
   padding: 5px;
   background-color: rgb(22, 27, 34, 0.4);
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgb(48, 54, 61);
   border-radius: 24px;
   margin-top: 16px;
@@ -271,10 +289,20 @@ img {
 }
 .skill-box {
   align-items: center;
-  transition: 0.3s;
   justify-content: center;
   flex-direction: column;
+  border-radius: 10px;
   margin: 5px;
+  padding-top: 8px;
+  border: none;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+.skill-box:hover {
+  border: 1px solid rgb(48, 54, 61);
+  background-color: rgb(22, 27, 34, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 .grids {
   align-items: center;
@@ -288,6 +316,7 @@ img {
   width: 64px;
   height: 64px;
   margin-bottom: 5px;
+  border-radius: 10px;
   object-fit: contain;
 }
 p {
@@ -297,8 +326,8 @@ p {
   padding: 3px 6px;
   border-radius: 6px;
   margin-top: 10px;
-  color: #0bf;
-  background: #0a66c21e;
+  color: rgb(255, 255, 255);
+  /* background: #0a66c21e; */
   text-align: center;
 }
 @media (min-width: 576px) {
@@ -388,7 +417,7 @@ p {
   height: 100%;
   padding: 10px;
   background-color: rgb(22, 27, 34, 0.4);
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgb(48, 54, 61);
 }
 .projects_project-info {
@@ -739,7 +768,7 @@ p {
       height: 100%;
       padding: 10px;
       background-color: rgb(22, 27, 34, 0.4);
-      backdrop-filter: blur(40px);
+      backdrop-filter: blur(10px);
       border: 1px solid rgb(48, 54, 61);
     }
     .projects_project-info {
@@ -1089,7 +1118,7 @@ p {
       height: 100%;
       padding: 10px;
       background-color: rgb(22, 27, 34, 0.4);
-      backdrop-filter: blur(40px);
+      backdrop-filter: blur(10px);
       border: 1px solid rgb(48, 54, 61);
     }
     .projects_project-info {
@@ -1167,10 +1196,10 @@ p {
         cursor: pointer;
       }
     }
-    cursor: pointer;
+    /* cursor: pointer;
     background-color: rgb(22, 27, 34);
     border-radius: 8px;
     margin-bottom: 5px;
-    border: 1px solid rgb(48, 54, 61);
+    border: 1px solid rgb(48, 54, 61); */
   }
 }
