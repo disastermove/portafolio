@@ -60,9 +60,9 @@ body {
 nav {
   background-color: rgb(22, 27, 34, 0.4);
   border-radius: 8px;
-  backdrop-filter: blur(10px);
-  margin-bottom: 5px;
+  backdrop-filter: blur(40px);
   border: 1px solid rgb(48, 54, 61);
+  margin-bottom: 5px;
   align-items: center !important;
   justify-content: center !important;
 }
@@ -260,9 +260,9 @@ img {
   gap: 50px;
   max-width: 700px;
   padding: 5px;
-  border: 1px solid rgba(245, 247, 250, 0.06);
-  background: rgb(22, 27, 34, 0.6);
+  background-color: rgb(22, 27, 34, 0.4);
   backdrop-filter: blur(40px);
+  border: 1px solid rgb(48, 54, 61);
   border-radius: 24px;
   margin-top: 16px;
 }
@@ -290,12 +290,16 @@ img {
   margin-bottom: 5px;
   object-fit: contain;
 }
+p {
+  text-align: justify;
+}
 .skill-box p {
   padding: 3px 6px;
   border-radius: 6px;
   margin-top: 10px;
   color: #0bf;
   background: #0a66c21e;
+  text-align: center;
 }
 @media (min-width: 576px) {
   .project {
@@ -383,9 +387,9 @@ img {
   border-radius: 0 0 24px 24px;
   height: 100%;
   padding: 10px;
-  border: 1px solid rgba(245, 247, 250, 0.06);
-  background: rgb(22, 27, 34, 0.6);
+  background-color: rgb(22, 27, 34, 0.4);
   backdrop-filter: blur(40px);
+  border: 1px solid rgb(48, 54, 61);
 }
 .projects_project-info {
   height: 96px;
@@ -734,9 +738,9 @@ img {
       border-radius: 0 0 24px 24px;
       height: 100%;
       padding: 10px;
-      border: 1px solid rgba(245, 247, 250, 0.06);
-      background: rgb(22, 27, 34, 0.6);
+      background-color: rgb(22, 27, 34, 0.4);
       backdrop-filter: blur(40px);
+      border: 1px solid rgb(48, 54, 61);
     }
     .projects_project-info {
       height: 96px;
@@ -1084,9 +1088,9 @@ img {
       border-radius: 0 0 24px 24px;
       height: 100%;
       padding: 10px;
-      border: 1px solid rgba(245, 247, 250, 0.06);
-      background: rgb(22, 27, 34, 0.6);
+      background-color: rgb(22, 27, 34, 0.4);
       backdrop-filter: blur(40px);
+      border: 1px solid rgb(48, 54, 61);
     }
     .projects_project-info {
       height: 96px;

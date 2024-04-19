@@ -27,14 +27,14 @@ const App = () => {
           </Nav.Link>
         </Nav>
       </Navbar>
-      <div class="sec__expernce__tt__circle1"></div>
-      <div class="sec__5__circle1"></div>
-      <div class="sec__5__circle2"></div>
-      <div class="sec__5__circle3"></div>
-      <div class="sec__5__circle4"></div>
-      <div class="sec__5__circle5"></div>
-      <div class="sec__5__circle6"></div>
-      <div class="sec__5__circle7"></div>
+      <div className="sec__expernce__tt__circle1 animate-fade-in-down"></div>
+      <div className="sec__5__circle1 animate-fade-in-down"></div>
+      <div className="sec__5__circle2 animate-fade-in-down"></div>
+      <div className="sec__5__circle3 animate-fade-in-down"></div>
+      <div className="sec__5__circle4 animate-fade-in-down"></div>
+      <div className="sec__5__circle5 animate-fade-in-down"></div>
+      <div className="sec__5__circle6 animate-fade-in-down"></div>
+      <div className="sec__5__circle7 animate-fade-in-down"></div>
       <LanguageSwitcher />
       <Row className="mt-5 align-items-center justify-content-evenly animate-fade-in-down">
         <Col md={4}>
