@@ -283,6 +283,9 @@ img {
   margin-top: 16px;
 }
 .col-2 {
+  margin: 5px;
+  padding-top: 8px;
+  border: 1px solid transparent;
   width: 19.5% !important;
 }
 .skill-box {
@@ -296,10 +299,12 @@ img {
   transition: all 0.3s ease;
   border: 1px solid transparent;
 }
-.skill-box:hover {
+.col-2:hover {
   border: 1px solid rgb(48, 54, 61);
   background-color: rgb(22, 27, 34, 0.1);
+  transition: all 0.5s ease;
   backdrop-filter: blur(40px);
+  border-radius: 10px;
   -webkit-backdrop-filter: blur(40px);
 }
 .grids {
@@ -1161,4 +1166,62 @@ p {
     border-radius: 8px;
     margin-bottom: 5px;
     border: 1px solid rgb(48, 54, 61); */
+}
+@media screen and (max-width: 768px) {
+  .sec__experience__cicle6,
+  .sec__expernce__tt__circle1 {
+    width: 40vw;
+    height: 40vw;
+    bottom: -10vh;
+    left: 30vw;
+  }
+
+  .sec__5__circle1 {
+    width: 50vw;
+    height: 50vw;
+    top: 20vh;
+    left: -25vw;
+  }
+
+  .sec__5__circle2 {
+    width: 40vw;
+    height: 40vw;
+    top: 15vh;
+    right: 10vw;
+  }
+
+  .sec__5__circle3 {
+    width: 60vw;
+    height: 60vw;
+    top: 30vh;
+    left: 30vw;
+  }
+
+  .sec__5__circle4 {
+    width: 20vw;
+    height: 20vw;
+    bottom: 5vh;
+    left: 40%;
+    transform: translateX(-40%);
+  }
+
+  .sec__5__circle5 {
+    width: 40vw;
+    height: 40vw;
+    bottom: 5vh;
+    right: 10vw;
+  }
+
+  .sec__5__circle6,
+  .sec__5__circle7 {
+    width: 40vw;
+    height: 40vw;
+    bottom: -20vh;
+    right: 10vw;
+  }
+
+  .sec__5__circle7 {
+    bottom: -30vh;
+    left: 5vw;
+  }
 }
