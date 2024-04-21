@@ -18,7 +18,8 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.4.0",
-    "react-i18next": "^12.2.0"
+    "react-i18next": "^12.2.0",
+    "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
