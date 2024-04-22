@@ -49,7 +49,6 @@ const Box = () => {
             <a
               href="https://rickandmortyapiv2.netlify.app/"
               target="_blank"
-              style={{ position: "relative", zIndex: "1" }}
               rel="noreferrer"
             >
               <img

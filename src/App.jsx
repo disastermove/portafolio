@@ -54,6 +54,84 @@ const App = () => {
               roundedCircle
               className="mb-3"
             />
+            <div className="current">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                // style="margin:auto;background:0 0;display:block;shape-rendering:auto"
+                style={{
+                  margin: "auto",
+                  background: "0 0",
+                  display: "block",
+                  shapeRendering: "auto",
+                }}
+                width="21"
+                height="21"
+                viewBox="0 0 100 100"
+                preserveAspectRatio="xMidYMid"
+              >
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="0"
+                  fill="none"
+                  stroke="#8aff8a"
+                  strokeWidth="28"
+                >
+                  <animate
+                    attributeName="r"
+                    repeatCount="indefinite"
+                    dur="1s"
+                    values="0;29"
+                    keyTimes="0;1"
+                    keySplines="0 0.2 0.8 1"
+                    calcMode="spline"
+                    begin="0s"
+                  />
+                  <animate
+                    attributeName="opacity"
+                    repeatCount="indefinite"
+                    dur="1s"
+                    values="1;0"
+                    keyTimes="0;1"
+                    keySplines="0.2 0 0.8 1"
+                    calcMode="spline"
+                    begin="0s"
+                  />
+                </circle>
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="0"
+                  fill="none"
+                  stroke="#8aff8a"
+                  strokeWidth="28"
+                >
+                  <animate
+                    attributeName="r"
+                    repeatCount="indefinite"
+                    dur="1s"
+                    values="0;29"
+                    keyTimes="0;1"
+                    keySplines="0 0.2 0.8 1"
+                    calcMode="spline"
+                    begin="-0.5s"
+                  />
+                  <animate
+                    attributeName="opacity"
+                    repeatCount="indefinite"
+                    dur="1s"
+                    values="1;0"
+                    keyTimes="0;1"
+                    keySplines="0.2 0 0.8 1"
+                    calcMode="spline"
+                    begin="-0.5s"
+                  />
+                </circle>
+              </svg>
+              <p>
+                Currently working on <b>Portfolio</b>
+              </p>
+            </div>
           </div>
         </Col>
         <Col md={7} id="about">

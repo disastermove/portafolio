@@ -72,6 +72,11 @@ body {
   list-style: none;
   scroll-behavior: smooth;
   font-family: "Quicksand", sans-serif;
+  user-select: none;
+}
+::selection {
+  background-color: #4580a3;
+  color: white;
 }
 nav {
   border-radius: 8px;
@@ -122,6 +127,7 @@ nav a:hover:after {
 }
 h1 {
   margin-bottom: 2rem;
+  text-align: center;
 }
 img {
   aspect-ratio: 16/9;
@@ -159,6 +165,7 @@ img {
   margin-bottom: 1rem;
 }
 .sec__expernce__tt__circle1 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 240px;
@@ -170,6 +177,7 @@ img {
   background-image: linear-gradient(135deg, #0fa, #4579f5 53%, #9c42f5);
 }
 .sec__5__circle1 {
+  filter: blur(20px);
   position: absolute;
   display: block;
   width: 194px;
@@ -181,6 +189,7 @@ img {
   background-image: linear-gradient(135deg, #0bf, #4579f5 51%, #5d2de1);
 }
 .sec__5__circle2 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 148px;
@@ -192,6 +201,7 @@ img {
   background-image: linear-gradient(135deg, #6f0, #16b862 52%, #00858f);
 }
 .sec__5__circle3 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 240px;
@@ -203,6 +213,7 @@ img {
   background-image: linear-gradient(12deg, #0fa, #4579f5 53%, #9c42f5);
 }
 .sec__5__circle4 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 98px;
@@ -213,6 +224,7 @@ img {
   background-image: linear-gradient(135deg, #f0a, #9c42f5 50%, #5d2de1);
 }
 .sec__5__circle5 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 196px;
@@ -224,6 +236,7 @@ img {
   background-image: linear-gradient(135deg, #ff5e00, #f54562 54%, #c32de1);
 }
 .sec__5__circle6 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 196px;
@@ -235,6 +248,7 @@ img {
   background-image: linear-gradient(135deg, #ff5e00, #f54562 54%, #c32de1);
 }
 .sec__5__circle7 {
+  filter: blur(20px);
   display: block;
   position: absolute;
   width: 240px;
@@ -258,7 +272,7 @@ img {
   color: var(--white);
 }
 .description-info {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -427,6 +441,14 @@ p {
     transform: translateY(0);
   }
 }
+.current {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.current p {
+  margin: 0;
+}
 .projects_container,
 .projects_cards-container {
   display: flex;
@@ -452,8 +474,13 @@ p {
 }
 .projects_cards-image {
   width: 320px;
-  transition: 0.2s all;
+  transition: cubic-bezier(0, 0.53, 0.11, 0.995) 0.3s all;
+  position: relative;
+  z-index: 1;
   height: 100%;
+}
+.projects_cards-image:hover {
+  transform: scale(1.03);
 }
 .projects_cards a {
   width: 100%;
