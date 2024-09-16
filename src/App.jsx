@@ -57,7 +57,6 @@ const App = () => {
             <div className="current">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                // style="margin:auto;background:0 0;display:block;shape-rendering:auto"
                 style={{
                   margin: "auto",
                   background: "0 0",

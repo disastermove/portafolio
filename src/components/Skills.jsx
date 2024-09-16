@@ -177,6 +177,25 @@ const Skills = () => {
               <p>Figma</p>
             </div>
           </Col>
+          <Col xs={2}>
+            <div className="skill-box">
+              {/* <Image src="/iconos/figma.webp" alt="Figma" fluid /> */}
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 0.75 0.75"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M.5.275.497.272A.16.16 0 0 0 .384.225H.375a.15.15 0 0 0 0 .3h.009A.16.16 0 0 0 .497.478L.5.475m-.425.05v-.3l.3-.175.3.175v.3L.375.7z"
+                  stroke="#fff"
+                  stroke-width=".05"
+                />
+              </svg>
+              <p>C</p>
+            </div>
+          </Col>
         </Row>
       </Container>
     </section>

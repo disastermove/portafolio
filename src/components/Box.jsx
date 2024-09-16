@@ -84,6 +84,47 @@ const Box = () => {
             </div>
           </div>
         </div>
+        <div className="projects_cards">
+          {/*  */}
+          <div className="projects_cards-info">
+            <a
+              href="https://rickandmortyapiv2.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={"/imagenes/weather.webp"}
+                className="projects_cards-image"
+                alt="project"
+              ></img>
+            </a>
+            <h3 className="projects_name">Weather App</h3>
+            <p className="projects_project-info">
+              {t("weatherapp")}
+              <br></br> <br></br>
+              <br></br>
+            </p>
+            <div className="projects_project-stack">
+              <p>ReactJS, JS, CSS</p>
+              <a
+                className="projects_project-stack-github"
+                href="https://github.com/disastermove/weather-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} style={{ height: "1.3em" }} />
+              </a>
+              <a
+                className="projects_project-stack-deploy"
+                href="https://weather-v1-app.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGoogle} style={{ height: "1.3em" }} />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

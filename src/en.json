@@ -5,5 +5,6 @@
   "project": "Projects",
   "rank": "Esports tournament app with React Native, allowing users to create, manage, and join tournaments.",
   "rick": "Revised Rick and Morty project with responsive design and using the Rick and Morty API.",
+  "weatherapp": "Weather app with React, allowing users to get current and future weather information.",
   "skills": "My Skills"
 }
